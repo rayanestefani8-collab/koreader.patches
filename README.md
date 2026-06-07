@@ -70,9 +70,9 @@ The Screenshot button will appear as the first button in the ImageViewer toolbar
 This patch intentionally avoids using `_()` (KOReader's gettext function) for the button label. During priority-2 patch loading, other patches may overwrite the `_` global with a non-function value, causing a runtime crash. Using a plain string avoids this conflict entirely.
 
 ## License
+MIT
 
 ## Credits
 
 Developed with assistance from [Claude](https://claude.ai) (Anthropic).
 
-MIT
